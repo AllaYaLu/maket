@@ -1,0 +1,795 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-wrapper {
+    width: 75vw;
+    padding-top: 2.4vh;
+
+}
+
+/* ----------------------- HEADER -------------------- */
+
+.header-wrapper {
+    width: 75vw;
+    padding-top: 2.4vh;
+    padding-bottom: 2.4vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.wrapper-left {
+    display: flex;
+    align-items: center;
+    gap: 1.31vw;
+}
+
+.wrapper-right {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 7.81vw;
+}
+
+.header-title {
+    width: 8.54vw;
+    margin-left: 1.35vw;
+    font-family: 'PT Sans';
+    font-size: 1.6vh;
+    line-height: 1.85vh;
+}
+
+.header-phone {
+    margin-left: 0.47vw;
+    margin-right: 2.31vw;
+    font-family: 'PT Sans';
+    font-size: 1.48vh;
+    line-height: 1.92vh;
+}
+
+.icon-phone {
+    max-width: 1.85vw;
+    min-height: 2.04vh;
+}
+
+.icon-search {
+    max-width: 2.08vw;
+    padding: 0.69vw;
+}
+
+/* -------------------- DESCRIPTION ----------------- */
+
+.description {
+    margin-top: 4.35vh;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descrioption-left {
+    width: 37.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description-right {
+    position: relative;
+}
+
+.descrioption-menu-wrappee {
+    margin-left: 0.78vw;
+}
+
+.description-wrapper-title {
+    width: 43.12vw;
+    height: 11.85vh;
+    margin-bottom: 5.37vh;
+}
+
+.description-title {
+    font-size: 5.55vh;
+    line-height: 5.93vh;
+    color: white;
+    font-family: 'Gilroy';
+    font-weight: 300;
+}
+
+.icon-vector {
+    width: 0.46vw;
+}
+
+.menu-item {
+    list-style: none;
+    display: flex;
+    gap: 0.78vw;
+    margin: 0 1.3vh;
+}
+
+.menu-title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.8vh;
+}
+
+.wrapper-price {
+    width: 19.32vw;
+    height: 60.74vh;
+}
+
+.description-tap {
+    height: 51.1vh;
+    display: block;
+}
+
+
+.description-menu-line {
+    width: 19.53vw;
+    height: 1px;
+    background: linear-gradient(to right, #4B4B4B, #26262500)
+}
+
+.description-menu-footer {
+    display: flex;
+    gap: 0.52vw;
+
+}
+
+.description-item-footer {
+    width: 1.61vw;
+    height: 0.18vh;
+    margin-top: 11.85vh;
+    margin-bottom: 2.96vh;
+}
+
+.description-item-footer:nth-child(2) {
+    background-image: linear-gradient(to right, #FE5B00 0.57vw, #575757 1.04vw);
+}
+
+.price-button-small {
+    padding: 0.74vh;
+    font-size: 1.48vh;
+    line-height: 1.85vh;
+}
+
+.price-button-big {
+    font-size: 2.22vh;
+    line-height: 2.22vh;
+    padding: 1.38vh;
+}
+
+.price-button {
+    font-family: 'PT Sans';
+    background-color: #FF7028;
+    color: white;
+}
+
+.description-price {
+    position: absolute;
+    top: 28.42vh;
+    left: 6.29vw;
+}
+
+/* --------------------- INTRO --------------------- */
+
+.intro-wrapper {
+    width: 75vw;
+    padding-top: 2.4vh;
+    padding-bottom: 2.4vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7.40vh;
+    margin-bottom: 7.40vh;
+}
+
+.intro-left {
+    max-width: 30.73vw;
+}
+
+.intro-latter-first {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 3.98vh;
+    font-size: 5vh;
+    color: #FE5B00;
+}
+
+.intro-title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.66vh;
+    font-weight: 700;
+    color: #FE5B00;
+}
+
+.intro-wrapper-latter {
+    display: flex;
+    align-items: flex-start;
+}
+
+.ihtro-description {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.66vh;
+    font-weight: 500;
+    line-height: 2.5vh;
+    margin-bottom: 2.31vh;
+    margin-top: 0;
+    color: #151716;
+
+}
+
+.intro-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.intro-right {
+    max-width: 20.5vw;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 9.37vw;
+}
+
+.itro-icon {
+    width: 2.52vw;
+}
+
+.intro-wrapper-titlt {
+    margin-left: 1.48vw;
+}
+
+.intro-heading {
+    font-family: 'Gilroy';
+    font-size: 1.48vh;
+    font-weight: 700;
+    margin-top: 0;
+    color: #151716;
+}
+
+.intro-description-content {
+    font-family: 'PT Sans';
+    font-size: 1.38vh;
+    font-weight: 400;
+    line-height: 1.85vh;
+    color: #7B7B7B;
+    text-align: start;
+}
+
+/* ------------------------ PODUCTS ------------------- */
+.container-products{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 18.52vh;
+   
+}
+.products {
+    margin-top: 7.4vh;
+    padding-bottom: 9.26vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.products-wrapper {
+    width: 75vw;
+    height: 32.40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+.wrapper-heading {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.products-heading {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 2.96vh;
+    line-height: 3.33vh;
+    color: #151716;
+}
+
+.products-gallery {
+    width: 62.76vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-wrapper-foto {
+    position: relative;
+    
+}
+
+.foto-products {
+    width: 18.75vw;
+    display: block;
+}
+
+.product-name {
+    display: inline-block;
+    width: 11.45vw;
+    padding-top: 1.85vh;
+    color: white;
+    font-weight: 700;
+    font-family: 'Gilroy';
+    font-size: 1.85vh;
+    line-height: 2.3vh;
+    border-top: 1px solid #fff;
+    position: absolute;
+    bottom: 2.1vh;
+    left: 1.25vw;
+}
+
+/* -------------------- COLLECTIONS ------------------ */
+
+.collections{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+   
+}
+.collection-wrapper{
+    width:84.89vw;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.collections-content {
+    width: 27.65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 6.2vh;
+    margin-bottom: 3.51vh;
+
+}
+
+.collections-title {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 2.96vh;
+    line-height: 3.33vh;
+    color: #fff;
+}
+
+.collection-description {
+    width: 24.01vw;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.66vh;
+    line-height: 150%;
+    color: #BEBEBE;
+}
+
+.collections-footer {
+    display: flex;
+    flex-direction: column;
+}
+.collections-wrapper-img{
+    width:53.59 ;
+}
+.collection-img-icon {
+    display: block;
+    margin: 0 auto;
+    width: 53.59vw;
+    height: 61.57vh;
+}
+
+.colections-wrapper-footer {
+    display: flex;
+}
+
+.collection-footer-title {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.48vh;
+    line-height: 2.22vh;
+    color: #BEBEBE;
+    margin-left: 0.78vw;
+}
+
+.collections-wrapper-img {
+    width: 53.59vw;
+    position: relative;
+    margin-left: 3.64vw;
+}
+
+.collection-wrapper-price {
+    position: absolute;
+    top: 7.03vh;
+    left: 4.11vw;
+}
+
+.collection-name-brend {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.66vh;
+    line-height: 2.96vh;
+    letter-spacing: 0.1vw;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.collection-price {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.22vh;
+    line-height: 2.22vh;
+    margin-top: 0.55vh;
+    padding-top: 1.29vh;
+    padding-left: 0.78vw;
+    padding-right: 0.83vW;
+    padding-bottom: 1.11vh;
+    color: #fff;
+}
+
+/* -------------------- GOODS ------------------------ */
+.goods{
+    width: 75vw;
+    display: flex;
+  
+}
+.goods-wrapper {
+    width: 62.14vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 7.4vh;
+    margin-bottom: 7.4vh;
+}
+
+.goods-wrapper-heading {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.goods-heading {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 2.96vh;
+    line-height: 3.33vh;
+    letter-spacing: -0.02vw;
+    color: #151716;
+    vertical-align: middle;
+}
+
+.goods-wrapper-stock {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.goods-stock {
+    width: 15.62vw;
+    position: relative;
+    border: 1px solid #ECECEC;
+    margin-top: 1.85vh;
+    padding-left: 1.04vw;
+    padding-top: 2.22vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.goods-stock:not(:first-child),
+.goods-stock:not(:last-child) {
+    border-left: none;
+}
+
+.goods-stock:first-child {
+    border-left: 1px solid #ECECEC;
+}
+
+.icon-stock {
+    width: 9.3vw;
+}
+
+.good-stock-title {
+    width: 13.85vw;
+    height: 9.11vh;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.48vh;
+    line-height: 2.03vh;
+    color: #151716;
+}
+
+.goods-wrapper-price {
+    width: 15.62vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+
+}
+
+.goods-price {
+
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.85vh;
+    line-height: 1.85vh;
+    vertical-align: middle;
+    color: #151716;
+}
+
+.goods-price-through {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.48vh;
+    line-height: 1.48;
+    vertical-align: middle;
+    text-decoration: line-through;
+    color: #A5A5A5;
+    margin-left: 0.46vw;
+
+}
+
+.goods-price-stock {
+    display: block;
+    position: absolute;
+    top: 1.11vh;
+    right: 0.62vw;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.48vh;
+    line-height: 1.85vh;
+    text-align: center;
+    padding: 0.74vh 0.57vw;
+    color: white;
+    background-color: #FF7028;
+}
+
+/* -------------------- ADVANTAGES --------------- */
+
+.advantages{
+    width: 49.94vw;
+    padding-top: 6.48vh;
+    padding-bottom: 7.40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.advantages-description{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.advantges-description-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 14.68vw;
+   
+}
+.dvanteges-upper{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.advantages-lower{
+    height: 8.7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     margin-bottom: 7.40vh;
+}
+.advantages-title{
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 2.96vh;
+    line-height: 3.33vh;
+    letter-spacing: -0.02vw;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 6.48vh;
+    margin-bottom: 5vh;
+    color: #151716;
+}
+.advantages-heading{
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 1.85vh;
+    text-align: center;
+    color: #151716;
+    margin-top: 1vh;
+  
+}
+.advantages-description-title{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.38vh;
+    line-height: 1.85vh;
+    text-align: center;
+
+    color: #7B7B7B;
+}
+
+
+
+/* -------------------- ORANGE BOTTOM -------------- */
+
+.orange-bottom {
+    position: relative;
+}
+
+.orange-bottom-img {
+    width: 100vw;
+    display: block;
+}
+
+.orange-bottom-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    left: 18.5vw;
+    width: 63vw;
+    background-color: #F6761A;
+    font-family: 'Gilroy';
+    padding-top: 3.8vh;
+    padding-bottom: 4.35vh;
+    font-size: 2.59vh;
+    line-height: 3.33vh;
+    font-weight: 400;
+}
+
+/* ----------------- FOOTER ---------------------- */
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 5.55vh;
+}
+
+
+.footer-icon-logo{
+    display: block;
+    max-width: 6.56vw;
+    margin-top: 1vh;
+}
+.footer-item{
+    list-style: none;
+    display: flex;
+   
+}
+.footer-description-item{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.48vh;
+    line-height: 2.22vh;
+    vertical-align: middle;
+    color: #BEBEBE;
+    margin-left: 0.62vw;
+}
+.footer-description-title{
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 1.48vh;
+   
+    color: #fff;
+
+}
+
+.orange-copyright {
+    width: 75vw;
+    display: flex;
+    justify-content:flex-end;
+    color: #747474;
+    font-size: 1.1vh;
+    line-height: 1.3vh;
+    font-family: 'Roboto';
+    align-items: center;
+    margin-top: 5.18vh;
+    margin-bottom: 2.22vh;
+}
+
+.orange-copyright-developed-by {
+    margin-left: 1.25vw;
+    border: 1px solid #494949;
+    padding-top: 0.74vh;
+    padding-bottom: 0.74vh;
+    padding-left: 0.625vw;
+    padding-right: 0.625vw;
+}
+.arrow-up{
+    border-top: 1px solid #2C2D2E;
+    padding-top: 3.98vh;
+    padding-bottom:3.98vh;
+ 
+}
+
+/* --------------------- FONTS --------------------- */
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    src: url(./font/gilroy-regular.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 300;
+    src: url(./font/gilroy-light.otf);
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    src: url(./font/gilroy-bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./font/Roboto-Regular.ttf);
+}
+
+/*---------------------- COLORS ---------------------- */
+
+.light-gray-1 {
+    color: #999999;
+}
+
+.light-gray-2 {
+    color: #939393;
+}
+
+.light-gray-3 {
+    color: #BEBEBE;
+}
+
+.light-gray-text {
+    color: #7B7B7B;
+}
+
+.light-gray-back {
+    background-color: #F6F6F6;
+}
+
+.gray-back {
+    background-color: #575757;
+}
+
+.gray-border {
+    border: 1px solid #494949;
+}
+
+.orange {
+    color: #FE5B00;
+}
+
+.orange-back {
+    background-color: #FF7028;
+}
+
+.dark-gray {
+    color: #151716;
+}
+
+.dark-gray-back {
+    background-color: #060707D9;
+}
+
+.dark-gray-back-2 {
+    background-color: #202122;
+}
