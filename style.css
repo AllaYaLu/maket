@@ -198,6 +198,7 @@ body {
         color: white;
         font-family: 'Gilroy';
         font-weight: 300;
+        text-align: center;
 
     }
 
@@ -569,7 +570,7 @@ body {
     }
 
     .collections-wrapper-img {
-        width: 75vw;
+        width: 100vw;
     }
 
     .collection-img-icon {
@@ -586,6 +587,12 @@ body {
         font-size: 1.66vh;
         line-height: 150%;
         color: #BEBEBE;
+    }
+
+    .collection-img-icon{
+        width: 85vw;
+        height: auto;
+        margin-left: -5vw;
     }
 
 
@@ -677,6 +684,16 @@ body {
 /* -------------------- GOODS ------------------------ */
 
 @media (min-width: 1120px) {
+
+    .goods-wrapper {
+        width: 62.14vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 7.4vh;
+        margin-bottom: 7.4vh;
+    }
+
     .goods-wrapper-stock {
         display: flex;
         justify-content: flex-start;
@@ -768,6 +785,16 @@ body {
 }
 
 @media (max-width: 1120px) {
+
+    .goods-wrapper {
+        width: 62.14vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 7.4vh;
+        margin-bottom: 7.4vh;
+    }
+
     .goods-wrapper-stock {
         display: flex;
         flex-direction: column;
@@ -856,14 +883,7 @@ body {
 
 }
 
-.goods-wrapper {
-    width: 62.14vw;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 7.4vh;
-    margin-bottom: 7.4vh;
-}
+
 
 .goods-wrapper-heading {
     display: flex;
@@ -1033,18 +1053,18 @@ body {
 @media (max-width: 900px) {
 
     .orange-bottom-text {
-        position: absolute;
+        position: relative;
         text-align: center;
         color: white;
         bottom: 0;
-        left: 28.5%;
+        left: 0;
         width: 63vw;
         background-color: #F6761A;
         font-family: 'Gilroy';
-        padding-top: 1.8vh;
-        padding-bottom: 1.35vh;
-        font-size: 1.70vh;
-        line-height: 2.33vh;
+        padding-top: 3.8vh;
+        padding-bottom: 4.35vh;
+        font-size: 2.59vh;
+        line-height: 3.33vh;
         font-weight: 400;
     }
 
